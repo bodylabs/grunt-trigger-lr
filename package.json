@@ -1,0 +1,32 @@
+{
+  "name": "grunt-trigger-lr",
+  "version": "0.1.0",
+  "description": "Grunt plugin for triggering LiveReload using a task.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bodylabs/grunt-trigger-lr"
+  },
+  "keywords": [
+    "gruntplugin",
+    "livereload"
+  ],
+  "author": "Body Labs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bodylabs/grunt-trigger-lr/issues"
+  },
+  "homepage": "https://github.com/bodylabs/grunt-trigger-lr",
+  "dependencies": {
+    "request": "~2.47.0",
+    "underscore": "~1.7.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "files": [
+    "tasks"
+  ]
+}
